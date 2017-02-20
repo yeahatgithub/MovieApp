@@ -1,0 +1,21 @@
+<view class="page-body">
+    <view class="head">
+        <image class="detail-image" src="{{imageUrl}}" mode="aspectFit"></image>
+    </view>
+    <view class="seperate"></view>
+    <view class="body">
+        <text class="genres">类型：{{genres}}</text>
+        <text class="rate">评分：{{rate}}</text>
+        <text class="countries">国家：{{countries}}</text>
+        <text class="directors">导演：{{directors}}</text>
+        <text class="cast-names">演员：{{cast_names}}</text>
+        <view class="casts-image-list">
+            <block wx:for="{{casts}}">
+                <image src="{{item.avatars.medium}}" class="cast-image-item"></image>
+            </block>
+        </view>
+        <view class="seperate"></view>
+        <text class="summary">简介：{{summary}}</text>
+        
+    </view>
+</view>

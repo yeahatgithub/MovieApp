@@ -1,0 +1,17 @@
+<template name="movieList">
+  <view class="movie-list">
+    <block class="movie-list" wx:for="{{movies}}">
+    <view class="movie-item" bindtap="detail" id="{{item.id}}">
+        <view class="picture">
+            <image src="{{item.images.medium}}" mode="aspectFit"></image>
+        </view>
+        <view class="movie-info">
+            <text class="movie-name">{{item.title}}</text>
+            <text class="movie-director">导演：{{item.directors[0].name}}</text>
+            <text class="movie-actors">演员：{{item.casts[0].name}}、{{item.casts[1].name}}、{{item.casts[2].name}}</text>
+        </view>
+    </view>
+    <view class="seperate"></view>
+    </block>
+  </view>
+</template>

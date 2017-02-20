@@ -1,0 +1,46 @@
+/**index.wxss**/
+page{
+  height: 100%;
+}
+.page-body{
+  background-color: #3a3a3a;
+  min-height: 100%;
+}
+.slide-image {
+  width: 100%;
+}
+
+.movie-item {
+  display: flex;
+  flex-direction: row;
+}
+.picture image{
+  width: 100px;
+  height: 150px;
+}
+.movie-info{
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 12px;
+}
+.movie-name{
+  padding-top: 20px;
+  font-size: 20px;
+  font-family: 微软雅黑, 黑体;
+}
+.movie-director{
+  padding-top: 10px;
+}
+.movie-actors{
+  padding-top: 10px;
+}
+.seperate {
+  background-color: #3a3a3a;
+  height: 3px;
+  width: 100%;
+  border-top: white solid 1px;
+  border-bottom: white solid 1px;
+  opacity: 0.3;
+}

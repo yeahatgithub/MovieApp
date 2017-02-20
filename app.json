@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/tuijian/tuijian",
+    "pages/search/search",
+    "pages/detail/detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "电影APP",
+    "navigationBarTextStyle":"white",
+    "backgroundColor": "#3a3a3a"
+  },
+  "tabBar": {
+    "backgroundColor": "#000",
+    "color": "#888888",
+    "selectedColor": "#00ff00",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "影院热映",
+      "iconPath": "images/reying.png",
+      "selectedIconPath": "images/reying.png"
+    },
+    {
+      "pagePath": "pages/tuijian/tuijian",
+      "text": "电影推荐",
+      "iconPath": "images/tuijian.png",
+      "selectedIconPath": "images/tuijian.png"
+    },
+    {
+      "pagePath": "pages/search/search",
+      "text": "电影查询",
+      "iconPath": "images/search.png",
+      "selectedIconPath": "images/search.png"
+    }]
+  }
+}
